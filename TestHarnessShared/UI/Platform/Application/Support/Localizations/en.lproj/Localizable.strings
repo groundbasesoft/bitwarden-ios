@@ -5,6 +5,7 @@
 "AuthDataTooShort" = "Authenticator data too short";
 "AuthDataTooShortReceived" = "The authenticator data was too short to contain the expected fields.";
 "CardAutofillForm" = "Card Autofill Form";
+"CreatePasskey" = "Create Passkey";
 "CardAutofillFormDescriptionLong" = "Long press a field, then select Autofill and Password to autofill with Bitwarden. Requires Bitwarden PM as AutoFill provider and a saved Card cipher.";
 "CardDetails" = "Card Details";
 "CardholderName" = "Cardholder Name";
@@ -55,6 +56,9 @@
 "MissingClientDataTypeReceived" = "The client data JSON did not contain a type field.";
 "MissingClientDataTypeTitle" = "Missing type field";
 "PasskeyAssertedSuccessfully" = "Passkey sign-in succeeded.";
+"PasskeyAssertedSuccessfully" = "Passkey sign-in succeeded.";
+"PasskeyAssertionNotAvailable" = "Passkey assertion requires iOS 17 or later.";
+"PasskeyAutofill" = "Passkey Autofill";
 "PasskeyCreatedButNotSaved" = "Passkey created, but not saved for later verification.";
 "PasskeyErrorReference" = "Passkey Error Reference";
 "PasskeyErrorReferenceDescriptionLong" = "Every error the client data parser and assertion verifier can produce for a passkey sign-in, in the order each is checked. Use this to see what a failure looks like without needing to trigger it.";
@@ -98,6 +102,8 @@
 "UnsupportedAlgorithmReceived" = "The credential's public key algorithm (%@) is not supported; expected ES256.";
 "UnsupportedCurveReceived" = "The credential's public key curve (%@) is not supported; expected P-256.";
 "UnsupportedKeyTypeReceived" = "The credential's public key type (%@) is not supported; expected EC2.";
+"UsePasskeyFormDescription" = "Enter a relying party ID below, then tap Sign In with Passkey. The Bitwarden AutoFill sheet will appear to select a credential.";
+"UseThisLoginFormToTestAutofillFunctionality" = "Use this login form to test autofill functionality.";
 "Username" = "Username";
 "UserPresenceNotAssertedExplanationLong" = "The authenticator data's flags byte did not have the \"user present\" bit set.";
 "UserPresenceNotAssertedReceived" = "The authenticator did not assert user presence.";
@@ -108,6 +114,7 @@
 "UsernameValue" = "Username: %@";
 "VerificationErrors" = "Verification Errors";
 "VerificationErrorsDescriptionLong" = "Occur while matching the parsed assertion against a stored credential, in the order they are checked.";
+"UsernameValue" = "Username: %@";
 "XColonY" = "%@: %@";
 "DateFieldPicker" = "Date Field Picker";
 "DateFieldPickerDescription" = "Tap the field to expand the inline calendar and select a date.";
