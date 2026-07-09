@@ -102,6 +102,7 @@
 "UnsupportedCurveReceived" = "The credential's public key curve (%@) is not supported; expected P-256.";
 "UnsupportedKeyTypeReceived" = "The credential's public key type (%@) is not supported; expected EC2.";
 "Username" = "Username";
+"UserPresenceNotAssertedReceived" = "The authenticator did not assert user presence.";
 "UsePasskey" = "Use passkey";
 "UsePasskeyFormDescriptionLong" = "Enter a relying party ID above, then tap Sign In with Passkey. The Bitwarden AutoFill sheet will appear to select a credential.";
 "UseThisLoginFormToTestAutofillFunctionality" = "Use this login form to test autofill functionality.";
